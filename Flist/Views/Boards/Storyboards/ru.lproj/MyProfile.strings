@@ -1,0 +1,150 @@
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "29r-JA-3kE"; */
+"29r-JA-3kE.text" = "Описание";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "6kw-ex-zrI"; */
+"6kw-ex-zrI.text" = "URL";
+
+/* Class = "UIButton"; normalTitle = "Upload"; ObjectID = "6uD-VO-57x"; */
+"6uD-VO-57x.normalTitle" = "Загрузить";
+
+/* Class = "UILabel"; text = "Group"; ObjectID = "6ze-aC-AlU"; */
+"6ze-aC-AlU.text" = "Группа";
+
+/* Class = "UILabel"; text = "Account Username"; ObjectID = "9pS-cp-5v3"; */
+"9pS-cp-5v3.text" = "Имя Пользователя Аккаунта";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "AqB-CM-ICA"; */
+"AqB-CM-ICA.text" = "Доступность";
+
+/* Class = "UINavigationItem"; title = "Choose"; ObjectID = "Bvb-5e-Rhf"; */
+"Bvb-5e-Rhf.title" = "Выбрать";
+
+/* Class = "UILabel"; text = "Link"; ObjectID = "DTE-Ac-qnK"; */
+"DTE-Ac-qnK.text" = "Link";
+
+/* Class = "UISegmentedControl"; Db9-V9-8qh.segmentTitles[0] = "Public"; ObjectID = "Db9-V9-8qh"; */
+"Db9-V9-8qh.segmentTitles[0]" = "Публичный";
+
+/* Class = "UISegmentedControl"; Db9-V9-8qh.segmentTitles[1] = "Friends"; ObjectID = "Db9-V9-8qh"; */
+"Db9-V9-8qh.segmentTitles[1]" = "Друзья";
+
+/* Class = "UISegmentedControl"; Db9-V9-8qh.segmentTitles[2] = "Private"; ObjectID = "Db9-V9-8qh"; */
+"Db9-V9-8qh.segmentTitles[2]" = "Приватный";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "DqW-bV-8eN"; */
+"DqW-bV-8eN.text" = "Доступность";
+
+/* Class = "UISegmentedControl"; Fdd-0J-mbi.segmentTitles[0] = "Public"; ObjectID = "Fdd-0J-mbi"; */
+"Fdd-0J-mbi.segmentTitles[0]" = "Публичный";
+
+/* Class = "UISegmentedControl"; Fdd-0J-mbi.segmentTitles[1] = "Friends"; ObjectID = "Fdd-0J-mbi"; */
+"Fdd-0J-mbi.segmentTitles[1]" = "Друзья";
+
+/* Class = "UISegmentedControl"; Fdd-0J-mbi.segmentTitles[2] = "Private"; ObjectID = "Fdd-0J-mbi"; */
+"Fdd-0J-mbi.segmentTitles[2]" = "Приватный";
+
+/* Class = "UIButton"; normalTitle = "Use Template"; ObjectID = "I4w-Cg-K65"; */
+"I4w-Cg-K65.normalTitle" = "Использовать Шаблон";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "Lo5-yP-C4d"; */
+"Lo5-yP-C4d.text" = "Описание";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "NXy-Xo-hpa"; */
+"NXy-Xo-hpa.text" = "Имя";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "O7O-i5-21j"; */
+"O7O-i5-21j.text" = "Другое";
+
+/* Class = "UITextView"; text = "Write description here..."; ObjectID = "POV-3Y-Vcp"; */
+"POV-3Y-Vcp.text" = "Напишите описание здесь...";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "R1s-yO-VOh"; */
+"R1s-yO-VOh.placeholder" = "имя пользователя";
+
+/* Class = "UISegmentedControl"; SYH-hP-gEA.segmentTitles[0] = "Public"; ObjectID = "SYH-hP-gEA"; */
+"SYH-hP-gEA.segmentTitles[0]" = "Публичный";
+
+/* Class = "UISegmentedControl"; SYH-hP-gEA.segmentTitles[1] = "Friends"; ObjectID = "SYH-hP-gEA"; */
+"SYH-hP-gEA.segmentTitles[1]" = "Друзья";
+
+/* Class = "UISegmentedControl"; SYH-hP-gEA.segmentTitles[2] = "Private"; ObjectID = "SYH-hP-gEA"; */
+"SYH-hP-gEA.segmentTitles[2]" = "Приватный";
+
+/* Class = "UILabel"; text = "http://example.com/username"; ObjectID = "Tfp-hE-FHd"; */
+"Tfp-hE-FHd.text" = "http://example.com/username";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "UNk-Bt-tH8"; */
+"UNk-Bt-tH8.normalTitle" = "Готово";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "V8Y-k6-Qxd"; */
+"V8Y-k6-Qxd.normalTitle" = "Сохранить";
+
+/* Class = "UIButton"; normalTitle = "Make Custom"; ObjectID = "Xfm-Po-2wm"; */
+"Xfm-Po-2wm.normalTitle" = "Сделать Новую";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "c71-hn-kIY"; */
+"c71-hn-kIY.text" = "Заголовок";
+
+/* Class = "UITextView"; text = "Write description here..."; ObjectID = "cur-jB-pH6"; */
+"cur-jB-pH6.text" = "Напишите описание здесь...";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "fbH-OK-EC8"; */
+"fbH-OK-EC8.title" = "Редактировать Профиль";
+
+/* Class = "UIButton"; normalTitle = "Upload"; ObjectID = "fyn-qI-QOx"; */
+"fyn-qI-QOx.normalTitle" = "Загрузить";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "hD8-vu-TqL"; */
+"hD8-vu-TqL.text" = "Имя";
+
+/* Class = "UITabBarItem"; title = "You"; ObjectID = "hH2-ci-eqj"; */
+"hH2-ci-eqj.title" = "Вы";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "hXD-pT-kC1"; */
+"hXD-pT-kC1.normalTitle" = "Готово";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "hhs-rV-GOk"; */
+"hhs-rV-GOk.normalTitle" = "Создать";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "jQq-2W-ddS"; */
+"jQq-2W-ddS.text" = "Доступность";
+
+/* Class = "UINavigationItem"; title = "Template"; ObjectID = "kAT-Oy-2iW"; */
+"kAT-Oy-2iW.title" = "Шаблон";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lDe-tm-5Ns"; */
+"lDe-tm-5Ns.text" = "Имя";
+
+/* Class = "UINavigationItem"; title = "New Group"; ObjectID = "lf4-aF-FDn"; */
+"lf4-aF-FDn.title" = "Новая Группа";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "lqY-Ut-oei"; */
+"lqY-Ut-oei.text" = "Имя Пользователя";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "oh3-Rc-GiP"; */
+"oh3-Rc-GiP.text" = "000";
+
+/* Class = "UILabel"; text = "Surname"; ObjectID = "qhd-ey-hkU"; */
+"qhd-ey-hkU.text" = "Фамилия";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "s6K-WO-zDT"; */
+"s6K-WO-zDT.normalTitle" = "Создать";
+
+/* Class = "UILabel"; text = "Link Account"; ObjectID = "sbE-Io-vH1"; */
+"sbE-Io-vH1.text" = "Ссылка на аккаунт";
+
+/* Class = "UITextField"; placeholder = "http://example.com/username"; ObjectID = "veS-7I-0NW"; */
+"veS-7I-0NW.placeholder" = "http://example.com/username";
+
+/* Class = "UINavigationItem"; title = "New Card"; ObjectID = "wMK-UV-P0i"; */
+"wMK-UV-P0i.title" = "Новая Карта";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "xPV-IP-GnN"; */
+"xPV-IP-GnN.title" = "Мой Профиль";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "xee-da-70W"; */
+"xee-da-70W.title" = "Отмена";
+
+/* Class = "UILabel"; text = "https://twitter.com/SirokovR"; ObjectID = "ypw-H3-Rh9"; */
+"ypw-H3-Rh9.text" = "https://twitter.com/SirokovR";
