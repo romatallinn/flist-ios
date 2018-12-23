@@ -3,6 +3,7 @@
 [![Flist](https://flist.me/css/favicons/android-icon-72x72.png)](https://flist.me)
 
 Website: https://flist.me
+
 Download App: http://bit.ly/flist-ios
 
 Flist is my personal open-source project. It is intended to help you in keeping all your social contacts at one place so you can easily share them at once with people you meet. The platform allows you to create a profile, which you then fill with the list of any contacts that you want to share; from large social networks such as Facebook, to emails and phone numbers, and to your profiles at small thematic forums. In short, you create your own profile in the online contact book.
@@ -25,8 +26,8 @@ This specific repository is dedicated to the IOS application of Flist. The app i
 See the Podfile for details.
 
 ### Other Repos of Flist
-   - [Website Repo]() -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
-   - [Firebase Cloud Functions Repo]() -- the repository for the custom backend scripts for more delicate and custom way of handling the events in safe and controlled environment.
+   - [Website Repo](https://github.com/romatallinn/flist-ios) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
+   - [Firebase Cloud Functions Repo](https://github.com/romatallinn/flist-firebase-funcs) -- the repository for the custom backend scripts for more delicate and custom way of handling the events in safe and controlled environment.
 
 
 ### License
