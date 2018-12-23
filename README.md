@@ -28,8 +28,9 @@ See the Podfile for details.
 ### Other Repos of Flist
    - [Website Repo](https://github.com/romatallinn/flist-web) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
    - [Firebase Cloud Functions Repo](https://github.com/romatallinn/flist-firebase-funcs) -- the repository for the custom backend scripts for more delicate and custom way of handling the events in safe and controlled environment.
+   - [Extras](https://github.com/romatallinn/flist-extras.git) -- the repository for the extra material of Flist. Mainly focuses on the structure of the database and the storage, but also includes some media and press content.
 
 
 ### License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
