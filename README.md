@@ -26,7 +26,7 @@ This specific repository is dedicated to the IOS application of Flist. The app i
 See the Podfile for details.
 
 ### Other Repos of Flist
-   - [Website Repo](https://github.com/romatallinn/flist-ios) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
+   - [Website Repo](https://github.com/romatallinn/flist-web) -- the repository for the web part of Flist. Includes both the landing page and the user's profile page.
    - [Firebase Cloud Functions Repo](https://github.com/romatallinn/flist-firebase-funcs) -- the repository for the custom backend scripts for more delicate and custom way of handling the events in safe and controlled environment.
 
 
