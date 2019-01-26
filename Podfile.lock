@@ -139,7 +139,7 @@ DEPENDENCIES:
   - SkeletonView
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Crashlytics
     - Fabric
     - Firebase
@@ -193,4 +193,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 74091ff1e47b86ce2264d4dee435dca63c50253e
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

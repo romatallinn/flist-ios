@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		249E609121FC75C600CB7D2E /* Subscriptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609021FC75C600CB7D2E /* Subscriptions.storyboard */; };
+		249E609321FC75D800CB7D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */; };
+		249E609621FC75E200CB7D2E /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609421FC75E200CB7D2E /* MyProfile.storyboard */; };
+		249E609721FC75E200CB7D2E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609521FC75E200CB7D2E /* Auth.storyboard */; };
 		3007B42C1FAF348900396605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3007B42B1FAF348800396605 /* Assets.xcassets */; };
 		3007B4341FAF352700396605 /* SubscriptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4331FAF352700396605 /* SubscriptionsModel.swift */; };
 		3007B43E1FAF36B900396605 /* ProfileInfoElement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3007B43C1FAF36B900396605 /* ProfileInfoElement.xib */; };
@@ -34,10 +38,8 @@
 		3007B4A01FB0BD6500396605 /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B49F1FB0BD6500396605 /* NewGroupViewController.swift */; };
 		3007B4A21FB2190E00396605 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3007B4A11FB2190E00396605 /* GoogleService-Info.plist */; };
 		3007B4A61FB497CC00396605 /* TextFieldReturnResignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4A51FB497CC00396605 /* TextFieldReturnResignable.swift */; };
-		300C9FC621ACB5A800F97296 /* QRCodeGeneratorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C9FC521ACB5A700F97296 /* QRCodeGeneratorModel.swift */; };
 		300F6C78207A7F1E001C7F1B /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300F6C77207A7F1E001C7F1B /* CancelButton.swift */; };
 		301218BC1FAF3225000ED045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301218BB1FAF3225000ED045 /* AppDelegate.swift */; };
-		301218C61FAF3225000ED045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301218C41FAF3225000ED045 /* LaunchScreen.storyboard */; };
 		301218D11FAF3225000ED045 /* FlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301218D01FAF3225000ED045 /* FlistTests.swift */; };
 		301218DC1FAF3225000ED045 /* FlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301218DB1FAF3225000ED045 /* FlistUITests.swift */; };
 		30150EB720681DA300D6A96C /* DescriptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30150EB620681DA300D6A96C /* DescriptionTextView.swift */; };
@@ -51,7 +53,6 @@
 		30150ED9206A857400D6A96C /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30150ED8206A857400D6A96C /* OnboardingContentViewController.swift */; };
 		3017C3B21FBF03DF0000BFFA /* MenuBase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3017C3B11FBF03DF0000BFFA /* MenuBase.storyboard */; };
 		3017C3B41FBF048C0000BFFA /* StoryboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017C3B31FBF048C0000BFFA /* StoryboardController.swift */; };
-		3017C3C01FBF1CA20000BFFA /* Subscriptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3017C3B91FBF16190000BFFA /* Subscriptions.storyboard */; };
 		301CD6C61FC74019006B7466 /* PostLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301CD6C51FC74019006B7466 /* PostLaunchScreen.storyboard */; };
 		301CD6C81FC74066006B7466 /* PostLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301CD6C71FC74066006B7466 /* PostLaunchViewController.swift */; };
 		3036BCD4219455DF0008DEF0 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036BCD3219455DE0008DEF0 /* ServiceModel.swift */; };
@@ -60,8 +61,6 @@
 		303779802199E02700FA2676 /* OnboardingGetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037797F2199E02700FA2676 /* OnboardingGetStartedViewController.swift */; };
 		304551462080F4F9000B4212 /* DynamicLinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304551452080F4F9000B4212 /* DynamicLinkController.swift */; };
 		3068C44D2061B23D004FCF57 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068C44C2061B23C004FCF57 /* Settings.storyboard */; };
-		306ECA69207E90400085A0B7 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306ECA6B207E90400085A0B7 /* Auth.storyboard */; };
-		306ECA6D207E91A70085A0B7 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306ECA6F207E91A70085A0B7 /* MyProfile.storyboard */; };
 		306F8457206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306F8456206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib */; };
 		306F845A206BF66400562C4F /* SubscrtiptionFollowersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F8459206BF66300562C4F /* SubscrtiptionFollowersModel.swift */; };
 		306F845C206BF6E600562C4F /* SubscrtiptionFollowingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F845B206BF6E500562C4F /* SubscrtiptionFollowingModel.swift */; };
@@ -110,6 +109,10 @@
 
 /* Begin PBXFileReference section */
 		061B7C1A832451711B9292EA /* Pods-FlistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlistTests/Pods-FlistTests.release.xcconfig"; sourceTree = "<group>"; };
+		249E609021FC75C600CB7D2E /* Subscriptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Subscriptions.storyboard; sourceTree = "<group>"; };
+		249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		249E609421FC75E200CB7D2E /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		249E609521FC75E200CB7D2E /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		3007B42B1FAF348800396605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3007B4331FAF352700396605 /* SubscriptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsModel.swift; sourceTree = "<group>"; };
 		3007B43C1FAF36B900396605 /* ProfileInfoElement.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileInfoElement.xib; sourceTree = "<group>"; };
@@ -137,11 +140,9 @@
 		3007B49F1FB0BD6500396605 /* NewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
 		3007B4A11FB2190E00396605 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3007B4A51FB497CC00396605 /* TextFieldReturnResignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldReturnResignable.swift; sourceTree = "<group>"; };
-		300C9FC521ACB5A700F97296 /* QRCodeGeneratorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorModel.swift; sourceTree = "<group>"; };
 		300F6C77207A7F1E001C7F1B /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		301218B81FAF3225000ED045 /* Flist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		301218BB1FAF3225000ED045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		301218C51FAF3225000ED045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301218C71FAF3225000ED045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		301218CC1FAF3225000ED045 /* FlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		301218D01FAF3225000ED045 /* FlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlistTests.swift; sourceTree = "<group>"; };
@@ -160,7 +161,6 @@
 		30150ED8206A857400D6A96C /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
 		3017C3B11FBF03DF0000BFFA /* MenuBase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuBase.storyboard; sourceTree = "<group>"; };
 		3017C3B31FBF048C0000BFFA /* StoryboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardController.swift; sourceTree = "<group>"; };
-		3017C3B91FBF16190000BFFA /* Subscriptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Subscriptions.storyboard; path = "/Users/roman/Tech/Mobile Dev/Flist/Flist/Views/Boards/Storyboards/Subscriptions.storyboard"; sourceTree = "<absolute>"; };
 		301CD6C51FC74019006B7466 /* PostLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostLaunchScreen.storyboard; sourceTree = "<group>"; };
 		301CD6C71FC74066006B7466 /* PostLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLaunchViewController.swift; sourceTree = "<group>"; };
 		3036BCD3219455DE0008DEF0 /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
@@ -170,8 +170,6 @@
 		30455144207FD00F000B4212 /* Flist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flist.entitlements; sourceTree = "<group>"; };
 		304551452080F4F9000B4212 /* DynamicLinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLinkController.swift; sourceTree = "<group>"; };
 		3068C44C2061B23C004FCF57 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		306ECA6A207E90400085A0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
-		306ECA6E207E91A70085A0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyProfile.storyboard; sourceTree = "<group>"; };
 		306F8456206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyDataPlaceholderTableView.xib; sourceTree = "<group>"; };
 		306F8459206BF66300562C4F /* SubscrtiptionFollowersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscrtiptionFollowersModel.swift; sourceTree = "<group>"; };
 		306F845B206BF6E500562C4F /* SubscrtiptionFollowingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscrtiptionFollowingModel.swift; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 				30C6BB7E2193240C00A49C68 /* ProfileManageModel.swift */,
 				3036F8B6208D2A56008579A5 /* Structs.swift */,
 				306F845D206BF6F000562C4F /* Subscriptions */,
-				300C9FC521ACB5A700F97296 /* QRCodeGeneratorModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -474,12 +471,12 @@
 		3017C3AE1FBEFECC0000BFFA /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				301218C41FAF3225000ED045 /* LaunchScreen.storyboard */,
+				249E609521FC75E200CB7D2E /* Auth.storyboard */,
+				249E609421FC75E200CB7D2E /* MyProfile.storyboard */,
+				249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */,
+				249E609021FC75C600CB7D2E /* Subscriptions.storyboard */,
 				301CD6C51FC74019006B7466 /* PostLaunchScreen.storyboard */,
-				306ECA6B207E90400085A0B7 /* Auth.storyboard */,
 				3017C3B11FBF03DF0000BFFA /* MenuBase.storyboard */,
-				306ECA6F207E91A70085A0B7 /* MyProfile.storyboard */,
-				3017C3B91FBF16190000BFFA /* Subscriptions.storyboard */,
 				3068C44C2061B23C004FCF57 /* Settings.storyboard */,
 				30150EC5206A667500D6A96C /* Onboarding.storyboard */,
 			);
@@ -717,17 +714,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301218C61FAF3225000ED045 /* LaunchScreen.storyboard in Resources */,
 				3007B43F1FAF36B900396605 /* CardElement.xib in Resources */,
 				30150EC6206A667500D6A96C /* Onboarding.storyboard in Resources */,
 				3017C3B21FBF03DF0000BFFA /* MenuBase.storyboard in Resources */,
 				3007B4A21FB2190E00396605 /* GoogleService-Info.plist in Resources */,
-				3017C3C01FBF1CA20000BFFA /* Subscriptions.storyboard in Resources */,
 				3007B42C1FAF348900396605 /* Assets.xcassets in Resources */,
-				306ECA69207E90400085A0B7 /* Auth.storyboard in Resources */,
 				306F8457206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib in Resources */,
-				306ECA6D207E91A70085A0B7 /* MyProfile.storyboard in Resources */,
+				249E609721FC75E200CB7D2E /* Auth.storyboard in Resources */,
+				249E609621FC75E200CB7D2E /* MyProfile.storyboard in Resources */,
+				249E609121FC75C600CB7D2E /* Subscriptions.storyboard in Resources */,
 				3007B43E1FAF36B900396605 /* ProfileInfoElement.xib in Resources */,
+				249E609321FC75D800CB7D2E /* LaunchScreen.storyboard in Resources */,
 				3068C44D2061B23D004FCF57 /* Settings.storyboard in Resources */,
 				301CD6C61FC74019006B7466 /* PostLaunchScreen.storyboard in Resources */,
 			);
@@ -897,7 +894,6 @@
 				3007B44D1FAF37C100396605 /* MainButtonView.swift in Sources */,
 				3036F8B7208D2A56008579A5 /* Structs.swift in Sources */,
 				30C6BB7D2193214C00A49C68 /* NetworkLayer.swift in Sources */,
-				300C9FC621ACB5A800F97296 /* QRCodeGeneratorModel.swift in Sources */,
 				3007B4A61FB497CC00396605 /* TextFieldReturnResignable.swift in Sources */,
 				3007B4801FAF3E1D00396605 /* ProfileEditTableViewController.swift in Sources */,
 				3007B45E1FAF392600396605 /* NavBarGeneral.swift in Sources */,
@@ -951,34 +947,6 @@
 			targetProxy = 301218D81FAF3225000ED045 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		301218C41FAF3225000ED045 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				301218C51FAF3225000ED045 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		306ECA6B207E90400085A0B7 /* Auth.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				306ECA6A207E90400085A0B7 /* Base */,
-			);
-			name = Auth.storyboard;
-			sourceTree = "<group>";
-		};
-		306ECA6F207E91A70085A0B7 /* MyProfile.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				306ECA6E207E91A70085A0B7 /* Base */,
-			);
-			name = MyProfile.storyboard;
-			path = "/Users/roman/Tech/Mobile Dev/Flist/Flist/Views/Boards/Storyboards";
-			sourceTree = "<absolute>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		301218DE1FAF3225000ED045 /* Debug */ = {
