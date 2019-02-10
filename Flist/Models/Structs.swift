@@ -45,14 +45,6 @@ protocol ProfileElementProtocol {
     
 }
 
-extension ProfileElementProtocol {
-    
-    var displayUsername: String {
-        return "@ \(username)"
-    }
-    
-}
-
 /// Profile Info Element --- user's profile information
 struct ProfileInfoElement: ProfileElementProtocol {
     
@@ -72,6 +64,10 @@ struct ProfileInfoElement: ProfileElementProtocol {
         return "\(name) \(surname)"
     }
 
+    var displayUsername: String {
+        return "@ \(username)"
+    }
+    
     var displayDescription: String {
         return (desc.isEmpty) ? "No Description..." : desc
     }
@@ -109,6 +105,9 @@ struct CardElement: ProfileElementProtocol {
     var username: String
     var desc: String
     
+    var displayUsername: String {
+        return username
+    }
     
     init(_ data: [String: Any], id: String!) {
         

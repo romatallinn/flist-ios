@@ -32,12 +32,12 @@ class ProfileElementCell: ProfileTableViewCell {
         self.element = elem
         
         logoImg.isSkeletonable = false
-        descript.isSkeletonable = false
+//        descript.isSkeletonable = false
 
             
         logoImg.image = elem.img
         name.text = elem.name
-        descript.text = elem.desc
+//        descript.text = elem.desc
         user.text = elem.displayUsername
             
         self.url = elem.url
@@ -47,8 +47,8 @@ class ProfileElementCell: ProfileTableViewCell {
             logoImg.isSkeletonable = true
             logoImg.showAnimatedGradientSkeleton(usingGradient: skeletonGradient)
             
-            descript.isSkeletonable = true
-            descript.showAnimatedGradientSkeleton(usingGradient: skeletonGradient)
+//            descript.isSkeletonable = true
+//            descript.showAnimatedGradientSkeleton(usingGradient: skeletonGradient)
             
             name.isHidden = true
             user.isHidden = true

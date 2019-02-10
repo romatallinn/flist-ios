@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -27,52 +27,42 @@
                                     <constraint firstAttribute="width" secondItem="bxP-ib-rDP" secondAttribute="height" multiplier="1:1" id="6FB-w7-OfW"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo8-bB-ED6">
-                                <rect key="frame" x="97" y="39" width="248" height="61"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
-                                <color key="textColor" red="0.1921568662" green="0.1921568662" blue="0.1921568662" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ username" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUj-oI-dVj">
-                                <rect key="frame" x="280" y="19" width="65" height="13"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weg-xk-paI">
+                                <rect key="frame" x="119" y="23" width="233" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="65" id="IUl-K7-6JO"/>
-                                    <constraint firstAttribute="height" constant="13" id="kSP-XJ-b5q"/>
+                                    <constraint firstAttribute="height" constant="30" id="SdU-d9-wcZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.377508328" green="0.38124603429999998" blue="0.38124603429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weg-xk-paI">
-                                <rect key="frame" x="95" y="19" width="112" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUj-oI-dVj">
+                                <rect key="frame" x="119" y="53" width="233" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="SdU-d9-wcZ"/>
-                                    <constraint firstAttribute="width" constant="112" id="slQ-dq-biB"/>
+                                    <constraint firstAttribute="height" constant="20" id="kSP-XJ-b5q"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <color key="textColor" red="0.377508328" green="0.38124603429999998" blue="0.38124603429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="weg-xk-paI" firstAttribute="leading" secondItem="bxP-ib-rDP" secondAttribute="trailing" constant="8" id="2EJ-3p-AwR"/>
-                            <constraint firstAttribute="trailing" secondItem="PUj-oI-dVj" secondAttribute="trailing" constant="15" id="A4W-su-43W"/>
-                            <constraint firstAttribute="bottom" secondItem="fo8-bB-ED6" secondAttribute="bottom" constant="5" id="EVO-qB-Q9i"/>
+                            <constraint firstItem="weg-xk-paI" firstAttribute="leading" secondItem="bxP-ib-rDP" secondAttribute="trailing" constant="32" id="9kg-vB-LAY"/>
+                            <constraint firstItem="PUj-oI-dVj" firstAttribute="leading" secondItem="bxP-ib-rDP" secondAttribute="trailing" constant="32" id="FPv-o5-bQ8"/>
                             <constraint firstItem="bxP-ib-rDP" firstAttribute="leading" secondItem="NJk-7I-CJV" secondAttribute="leading" constant="17" id="LSc-9x-4aX"/>
+                            <constraint firstAttribute="trailing" secondItem="weg-xk-paI" secondAttribute="trailing" constant="8" id="Mf0-Cv-Fig"/>
                             <constraint firstItem="bxP-ib-rDP" firstAttribute="top" secondItem="NJk-7I-CJV" secondAttribute="top" constant="17" id="Oou-O7-Nf0"/>
-                            <constraint firstItem="PUj-oI-dVj" firstAttribute="top" secondItem="NJk-7I-CJV" secondAttribute="top" constant="19" id="aX6-cl-wHQ"/>
-                            <constraint firstItem="fo8-bB-ED6" firstAttribute="leading" secondItem="bxP-ib-rDP" secondAttribute="trailing" constant="10" id="cep-OU-8eY"/>
-                            <constraint firstItem="weg-xk-paI" firstAttribute="top" secondItem="NJk-7I-CJV" secondAttribute="top" constant="19" id="ki2-UU-vW7"/>
+                            <constraint firstAttribute="trailing" secondItem="PUj-oI-dVj" secondAttribute="trailing" constant="8" id="bZw-dy-gPW"/>
                             <constraint firstAttribute="bottom" secondItem="bxP-ib-rDP" secondAttribute="bottom" constant="18" id="muP-Eo-Fxr"/>
-                            <constraint firstAttribute="trailing" secondItem="fo8-bB-ED6" secondAttribute="trailing" constant="15" id="se7-ih-gfA"/>
-                            <constraint firstItem="fo8-bB-ED6" firstAttribute="top" secondItem="weg-xk-paI" secondAttribute="bottom" constant="5" id="z2J-ri-Q3m"/>
+                            <constraint firstItem="PUj-oI-dVj" firstAttribute="top" secondItem="weg-xk-paI" secondAttribute="bottom" id="shO-7t-3NV"/>
                         </constraints>
                     </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstItem="NJk-7I-CJV" firstAttribute="leading" secondItem="fvU-EV-VaB" secondAttribute="leading" constant="7" id="8oc-H5-7Li"/>
+                    <constraint firstItem="weg-xk-paI" firstAttribute="top" secondItem="fvU-EV-VaB" secondAttribute="top" constant="30" id="RRn-Hf-rhJ"/>
                     <constraint firstAttribute="trailing" secondItem="NJk-7I-CJV" secondAttribute="trailing" constant="8" id="csg-48-hiQ"/>
                     <constraint firstItem="NJk-7I-CJV" firstAttribute="top" secondItem="fvU-EV-VaB" secondAttribute="top" constant="7" id="vJs-oC-7JG"/>
                     <constraint firstAttribute="bottom" secondItem="NJk-7I-CJV" secondAttribute="bottom" constant="7.5" id="vX4-YR-FvX"/>
@@ -80,16 +70,15 @@
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
-                <outlet property="descript" destination="fo8-bB-ED6" id="nef-ac-9MB"/>
                 <outlet property="logoImg" destination="bxP-ib-rDP" id="fjs-n5-qL1"/>
                 <outlet property="name" destination="weg-xk-paI" id="L9f-RV-hkw"/>
                 <outlet property="user" destination="PUj-oI-dVj" id="U4o-Va-war"/>
                 <outlet property="viewCont" destination="NJk-7I-CJV" id="GT5-zr-DgK"/>
             </connections>
-            <point key="canvasLocation" x="35.5" y="54"/>
+            <point key="canvasLocation" x="34.399999999999999" y="53.973013493253376"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="other" width="256" height="256"/>
+        <image name="other" width="512" height="512"/>
     </resources>
 </document>
