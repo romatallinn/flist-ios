@@ -1,17 +1,20 @@
 //
-//  FirebaseAuthNetworkLayer.swift
+//  FirestoreAuthNetworkLayer.swift
 //  Flist
 //
-//  Created by Роман Широков on 06/11/2018.
-//  Copyright © 2018 Flist. All rights reserved.
+//  Created by Roman Sirokov on 01/02/2019.
+//  Copyright © 2019 Flist. All rights reserved.
 //
 
 import FirebaseAuth
+import FirebaseFirestore
 import FirebaseMessaging
-import FirebaseDatabase
 import FirebaseStorage
 
-class FirebaseAuthNetworkLayer: FirebaseLayer, AuthNetworkLayer {
+class FirestoreAuthNetworkLayer: FirestoreLayer, AuthNetworkLayer {
+        
+    
+    // FirebaseAuth part
     
     public func getUserEmail() -> String {
         return Auth.auth().currentUser!.email!
@@ -26,7 +29,18 @@ class FirebaseAuthNetworkLayer: FirebaseLayer, AuthNetworkLayer {
         
     }
     
-    public func registration(username: String, password: String, email: String, completionHandler: @escaping LayerAuthResultCallback) {
+    public func logout() throws { try Auth.auth().signOut() }
+
+    
+    // FirebaseMessanging
+    
+    public func getFCMToken() -> String? { return Messaging.messaging().fcmToken }
+    
+    
+    
+    // FirebaseFirestore
+    
+    func registration(username: String, password: String, email: String, completionHandler: @escaping LayerAuthResultCallback) {
         
         Auth.auth().createUser(withEmail: email, password: password) {
             (authResult, error) in
@@ -36,14 +50,15 @@ class FirebaseAuthNetworkLayer: FirebaseLayer, AuthNetworkLayer {
                 return
             }
             
+            
             var dict: [String: Any]
             
             // Initializations of other standard data (such as verified status, timestamp and username lowercased) happens automatically on server (e.g., Firebase Functions)
             dict = [
-                "username":                 username,
+                "username": username
             ]
-        
-            self.ref.child("users/\(String(describing: user.uid))").setValue(dict)
+            
+            self.db.collection("users").document(user.uid).setData(dict)
             
             // Send email verification letter to the user's email
             user.sendEmailVerification(completion: nil)
@@ -54,33 +69,30 @@ class FirebaseAuthNetworkLayer: FirebaseLayer, AuthNetworkLayer {
         
     }
     
-    public func getFCMToken() -> String? { return Messaging.messaging().fcmToken }
-    
-    public func addFCMToken(token: String?) {
+    func addFCMToken(token: String?) {
         
         guard let usr_id = self.getCurrentUID(), let tkn = token else { return }
         
-        self.ref.child("users/\(usr_id)/fcm_tokens/\(tkn)").observe(.value, with: {
-            (snapshot) in
-            
-            if !(snapshot.value is NSNull) { return }
-            
-            self.ref.child("users/\(usr_id)/fcm_tokens/\(tkn)").setValue(true)
-            
-        })
+        self.db.collection("users").document(usr_id).updateData([
+            "fcm_tokens": FieldValue.arrayUnion([tkn])
+        ])
         
     }
     
-    public func logout() throws { try Auth.auth().signOut() }
     
-    public func getUserProfileInfo(completionHandler: @escaping ((NSDictionary?) -> ())) {
+    func getUserProfileInfo(completionHandler: @escaping ((NSDictionary?) -> ())) {
         
         guard let usr_id = self.getCurrentUID() else { return }
         
-        self.ref.child("users/\(String(describing: usr_id))").observe(.value, with: {
-            (snapshot) in
-            completionHandler(snapshot.value as? NSDictionary)
-        })
+        self.db.collection("users").document(usr_id).getDocument(){
+            
+            (doc, err) in
+            
+            if let doc = doc, doc.exists {
+                completionHandler((doc.data()! as NSDictionary))
+            }
+            
+        }
         
     }
     
@@ -92,11 +104,11 @@ class FirebaseAuthNetworkLayer: FirebaseLayer, AuthNetworkLayer {
         
         // Create a reference to the file you want to upload
         let storageRef = Storage.storage().reference().child(url)
-
+        
         // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
         storageRef.getData(maxSize: 1 * 1024 * 1024, completion: completionHandler)
         
     }
     
-    
+
 }

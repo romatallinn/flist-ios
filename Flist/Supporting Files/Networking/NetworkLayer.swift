@@ -15,15 +15,15 @@ class NetworkLayer {
     
     
     /// The network layer that provides funcionality in handling procedures needed in authorization.
-    static let auth: AuthNetworkLayer = FirebaseAuthNetworkLayer()
+    static let auth: AuthNetworkLayer = FirestoreAuthNetworkLayer()
     
     /// The network layer that provides funcionality in handling procedures needed in account management (e.g., updating acc info).
-    static let account: AccountManagementNetworkLayer = FirebaseAccountManagementNetworkLayer()
+    static let account: AccountManagementNetworkLayer = FirestoreAccountManagementNetworkLayer()
     
     /// The network layer that provides funcionality in accessing profile data.
-    static let profile: ProfileNetworkLayer = FirebaseProfileNetworkLayer()
+    static let profile: ProfileNetworkLayer = FirestoreProfileNetworkLayer()
     
     /// The network layer that provides funcionality in profile data management and updating.
-    static let profileManager: ProfileManagementNetworkLayer = FirebaseProfileManagementNetworkLayer()
+    static let profileManager: ProfileManagementNetworkLayer = FirestoreProfileManagementNetworkLayer()
     
 }

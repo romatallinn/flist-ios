@@ -9,10 +9,7 @@
 import UIKit
 import UserNotifications
 
-import FirebaseMessaging
-import FirebaseDatabase
-import FirebaseCore
-
+import Firebase
 
 import Fabric
 import Crashlytics
@@ -33,8 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
         // Configure Firebase & Fabric utilities
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
-        
-        Database.database().isPersistenceEnabled = true
+    
         
         Fabric.with([Crashlytics.self])
                 

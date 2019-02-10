@@ -20,7 +20,7 @@ class ProfileManageModel {
             "card_type": data["type"] ?? "UNKNOWN"
             ])
         
-        return networkLayer.addCard(data)
+        return networkLayer.addCard(data, group_id: <#String#>)
     }
     
     public func addGroup(_ data: [String: Any]) {
@@ -32,7 +32,7 @@ class ProfileManageModel {
     }
     
     public func updateCard(_ data: [String: Any]?, id: String) {
-        networkLayer.updateCard(data, id: id)
+        networkLayer.updateCard(data, id: id, group_id: <#String#>)
     }
     
     public func updateGroup(_ data: [String: Any]?, id: String) {

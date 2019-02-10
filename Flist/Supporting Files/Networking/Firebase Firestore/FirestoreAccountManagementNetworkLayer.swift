@@ -1,16 +1,15 @@
 //
-//  FirebaseAccountManagementNetworkLayer.swift
+//  FirestoreAccountManagementNetworkLayer.swift
 //  Flist
 //
-//  Created by Роман Широков on 06/11/2018.
-//  Copyright © 2018 Flist. All rights reserved.
+//  Created by Roman Sirokov on 02/02/2019.
+//  Copyright © 2019 Flist. All rights reserved.
 //
 
-import Foundation
 import FirebaseAuth
 import FirebaseStorage
 
-class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNetworkLayer {
+class FirestoreAccountManagementNetworkLayer: FirestoreLayer, AccountManagementNetworkLayer {
     
     func updateEmail(_ to: String, completionHandler: @escaping ((Error?) -> ())) {
         Auth.auth().currentUser?.updateEmail(to: to, completion: completionHandler)
@@ -25,7 +24,16 @@ class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNe
         guard let uid = self.getCurrentUID() else { return }
         
         let data = ["name" : to]
-        self.ref.child("users/\(String(describing: uid))").updateChildValues(data)
+        
+        self.db.collection("users").document(uid).updateData(data){
+            
+                (err) in
+                
+                if let err = err {
+                    print("Error updating PROFILE NAME doc: \(err)")
+                }
+                
+        }
         
     }
     
@@ -34,7 +42,16 @@ class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNe
         guard let uid = self.getCurrentUID() else { return }
         
         let data = ["surname" : to]
-        self.ref.child("users/\(String(describing: uid))").updateChildValues(data)
+        
+        self.db.collection("users").document(uid).updateData(data){
+            
+            (err) in
+            
+            if let err = err {
+                print("Error updating PROFILE SURNAME doc: \(err)")
+            }
+            
+        }
         
     }
     
@@ -42,13 +59,21 @@ class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNe
         
         guard let uid = self.getCurrentUID() else { return }
         
-        self.ref.child("users/\(uid)").updateChildValues(to)
+        self.db.collection("users").document(uid).updateData(to){
+            
+            (err) in
+            
+            if let err = err {
+                print("Error updating PROFILE doc: \(err)")
+            }
+            
+        }
         
     }
     
-    public func uploadProfileImg(fileName: String, imgData: Data, completionHandler: @escaping ((Error?)->())) {
+    func uploadProfileImg(fileName: String, imgData: Data, completionHandler: @escaping ((Error?) -> ())) {
         
-        guard let uid = getCurrentUID() else { return }
+        guard let uid = self.getCurrentUID() else { return }
         
         let path = "profile_imgs/" + fileName
         
@@ -68,8 +93,10 @@ class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNe
             
             (snapshot) in
             
+            let data = ["img_update" : NSDate.GetTimestamp()]
+
             // Save timestamp of the image for caching purposes
-            self.ref.child("users/\(uid)/img_update").setValue(NSDate.GetTimestamp())
+            self.db.collection("users").document(uid).updateData(data)
             
         }
         
@@ -87,5 +114,8 @@ class FirebaseAccountManagementNetworkLayer: FirebaseLayer,  AccountManagementNe
     func requestPasswordReset(_ withEmail: String, completionHandler: @escaping ((Error?) -> ())) {
         Auth.auth().sendPasswordReset(withEmail: withEmail) { (error) in completionHandler(error) }
     }
+    
+
+    
     
 }

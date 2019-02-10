@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242DF8A422045EDB003852AD /* FirestoreLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DF8A322045EDB003852AD /* FirestoreLayer.swift */; };
+		242DF8A622045F53003852AD /* FirestoreAuthNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DF8A522045F53003852AD /* FirestoreAuthNetworkLayer.swift */; };
+		242DF8A8220468C4003852AD /* FirestoreProfileManagementNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DF8A7220468C4003852AD /* FirestoreProfileManagementNetworkLayer.swift */; };
+		242DF8AA2205EC15003852AD /* FirestoreAccountManagementNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DF8A92205EC15003852AD /* FirestoreAccountManagementNetworkLayer.swift */; };
+		242DF8AC2205EE21003852AD /* FirestoreProfileNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DF8AB2205EE21003852AD /* FirestoreProfileNetworkLayer.swift */; };
 		249E609121FC75C600CB7D2E /* Subscriptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609021FC75C600CB7D2E /* Subscriptions.storyboard */; };
 		249E609321FC75D800CB7D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */; };
 		249E609621FC75E200CB7D2E /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609421FC75E200CB7D2E /* MyProfile.storyboard */; };
@@ -66,11 +71,6 @@
 		306F845C206BF6E600562C4F /* SubscrtiptionFollowingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306F845B206BF6E500562C4F /* SubscrtiptionFollowingModel.swift */; };
 		308733471FD6DA86008A6A3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308733461FD6DA86008A6A3A /* Extensions.swift */; };
 		30C6BB622191C30000A49C68 /* NetworkLayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB612191C30000A49C68 /* NetworkLayerProtocols.swift */; };
-		30C6BB672191CD6900A49C68 /* FirebaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB662191CD6900A49C68 /* FirebaseLayer.swift */; };
-		30C6BB6A2191CDA800A49C68 /* FirebaseAuthNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB692191CDA800A49C68 /* FirebaseAuthNetworkLayer.swift */; };
-		30C6BB6E2191CE3900A49C68 /* FirebaseAccountManagementNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB6D2191CE3900A49C68 /* FirebaseAccountManagementNetworkLayer.swift */; };
-		30C6BB702191CE6C00A49C68 /* FirebaseProfileNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB6F2191CE6C00A49C68 /* FirebaseProfileNetworkLayer.swift */; };
-		30C6BB722191CE9A00A49C68 /* FirebaseProfileManagementNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB712191CE9A00A49C68 /* FirebaseProfileManagementNetworkLayer.swift */; };
 		30C6BB752191D8A100A49C68 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB742191D8A100A49C68 /* AuthModel.swift */; };
 		30C6BB792193165000A49C68 /* AccountManagementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB782193165000A49C68 /* AccountManagementModel.swift */; };
 		30C6BB7B21931CD100A49C68 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C6BB7A21931CD100A49C68 /* ProfileModel.swift */; };
@@ -109,6 +109,11 @@
 
 /* Begin PBXFileReference section */
 		061B7C1A832451711B9292EA /* Pods-FlistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlistTests/Pods-FlistTests.release.xcconfig"; sourceTree = "<group>"; };
+		242DF8A322045EDB003852AD /* FirestoreLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreLayer.swift; sourceTree = "<group>"; };
+		242DF8A522045F53003852AD /* FirestoreAuthNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreAuthNetworkLayer.swift; sourceTree = "<group>"; };
+		242DF8A7220468C4003852AD /* FirestoreProfileManagementNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreProfileManagementNetworkLayer.swift; sourceTree = "<group>"; };
+		242DF8A92205EC15003852AD /* FirestoreAccountManagementNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreAccountManagementNetworkLayer.swift; sourceTree = "<group>"; };
+		242DF8AB2205EE21003852AD /* FirestoreProfileNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreProfileNetworkLayer.swift; sourceTree = "<group>"; };
 		249E609021FC75C600CB7D2E /* Subscriptions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Subscriptions.storyboard; sourceTree = "<group>"; };
 		249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		249E609421FC75E200CB7D2E /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
@@ -175,11 +180,6 @@
 		306F845B206BF6E500562C4F /* SubscrtiptionFollowingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscrtiptionFollowingModel.swift; sourceTree = "<group>"; };
 		308733461FD6DA86008A6A3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		30C6BB612191C30000A49C68 /* NetworkLayerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerProtocols.swift; sourceTree = "<group>"; };
-		30C6BB662191CD6900A49C68 /* FirebaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLayer.swift; sourceTree = "<group>"; };
-		30C6BB692191CDA800A49C68 /* FirebaseAuthNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthNetworkLayer.swift; sourceTree = "<group>"; };
-		30C6BB6D2191CE3900A49C68 /* FirebaseAccountManagementNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAccountManagementNetworkLayer.swift; sourceTree = "<group>"; };
-		30C6BB6F2191CE6C00A49C68 /* FirebaseProfileNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseProfileNetworkLayer.swift; sourceTree = "<group>"; };
-		30C6BB712191CE9A00A49C68 /* FirebaseProfileManagementNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseProfileManagementNetworkLayer.swift; sourceTree = "<group>"; };
 		30C6BB742191D8A100A49C68 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		30C6BB782193165000A49C68 /* AccountManagementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementModel.swift; sourceTree = "<group>"; };
 		30C6BB7A21931CD100A49C68 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
@@ -232,6 +232,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242DF8A222045E81003852AD /* Firebase Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				242DF8A322045EDB003852AD /* FirestoreLayer.swift */,
+				242DF8A522045F53003852AD /* FirestoreAuthNetworkLayer.swift */,
+				242DF8A7220468C4003852AD /* FirestoreProfileManagementNetworkLayer.swift */,
+				242DF8A92205EC15003852AD /* FirestoreAccountManagementNetworkLayer.swift */,
+				242DF8AB2205EE21003852AD /* FirestoreProfileNetworkLayer.swift */,
+			);
+			path = "Firebase Firestore";
+			sourceTree = "<group>";
+		};
 		3007B42D1FAF34A200396605 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,23 +526,11 @@
 		30C6BB602191C2D800A49C68 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				242DF8A222045E81003852AD /* Firebase Firestore */,
 				30C6BB8A2193749D00A49C68 /* Protocols */,
-				30C6BB652191CCDC00A49C68 /* Firebase */,
 				30C6BB7C2193214C00A49C68 /* NetworkLayer.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		30C6BB652191CCDC00A49C68 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				30C6BB6F2191CE6C00A49C68 /* FirebaseProfileNetworkLayer.swift */,
-				30C6BB6D2191CE3900A49C68 /* FirebaseAccountManagementNetworkLayer.swift */,
-				30C6BB692191CDA800A49C68 /* FirebaseAuthNetworkLayer.swift */,
-				30C6BB662191CD6900A49C68 /* FirebaseLayer.swift */,
-				30C6BB712191CE9A00A49C68 /* FirebaseProfileManagementNetworkLayer.swift */,
-			);
-			path = Firebase;
 			sourceTree = "<group>";
 		};
 		30C6BB8A2193749D00A49C68 /* Protocols */ = {
@@ -785,21 +785,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Flist/Pods-Flist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -867,26 +873,26 @@
 				30C6BB8C219374E300A49C68 /* ProfileManagementNetworkLayer.swift in Sources */,
 				30D4E9A9206EA2BA00F15D4A /* CardCustomLinkTableViewController.swift in Sources */,
 				3007B4701FAF3B3000396605 /* ProfileInfoCell.swift in Sources */,
-				30C6BB6A2191CDA800A49C68 /* FirebaseAuthNetworkLayer.swift in Sources */,
 				30150ED7206A84CF00D6A96C /* OnboardingPermissionsViewController.swift in Sources */,
 				3007B4711FAF3B3000396605 /* ProfileElementCell.swift in Sources */,
 				30150EC8206A674300D6A96C /* OnboardingViewController.swift in Sources */,
 				301218BC1FAF3225000ED045 /* AppDelegate.swift in Sources */,
 				3007B48C1FAF3EC900396605 /* SubscriptionsTableViewCell.swift in Sources */,
 				30150EBC206995A200D6A96C /* SearchBarReturnResignable.swift in Sources */,
-				30C6BB6E2191CE3900A49C68 /* FirebaseAccountManagementNetworkLayer.swift in Sources */,
 				3007B4751FAF3BEE00396605 /* ProfileTableViewCell.swift in Sources */,
+				242DF8A8220468C4003852AD /* FirestoreProfileManagementNetworkLayer.swift in Sources */,
 				3007B45A1FAF38C800396605 /* ResetPasswordViewController.swift in Sources */,
-				30C6BB702191CE6C00A49C68 /* FirebaseProfileNetworkLayer.swift in Sources */,
 				30C6BB622191C30000A49C68 /* NetworkLayerProtocols.swift in Sources */,
 				3036F8B5208910B8008579A5 /* MenuBaseViewController.swift in Sources */,
-				30C6BB722191CE9A00A49C68 /* FirebaseProfileManagementNetworkLayer.swift in Sources */,
+				242DF8AA2205EC15003852AD /* FirestoreAccountManagementNetworkLayer.swift in Sources */,
 				3007B4581FAF38C800396605 /* RegistrationViewController.swift in Sources */,
+				242DF8A622045F53003852AD /* FirestoreAuthNetworkLayer.swift in Sources */,
+				242DF8A422045EDB003852AD /* FirestoreLayer.swift in Sources */,
 				30C6BB7F2193240C00A49C68 /* ProfileManageModel.swift in Sources */,
 				30C6BB832193740500A49C68 /* AuthNetworkLayer.swift in Sources */,
 				30D4E9AD206FBEEC00F15D4A /* CardTemplateTableViewController.swift in Sources */,
 				3007B46C1FAF3AF500396605 /* ProfileViewController.swift in Sources */,
-				30C6BB672191CD6900A49C68 /* FirebaseLayer.swift in Sources */,
+				242DF8AC2205EE21003852AD /* FirestoreProfileNetworkLayer.swift in Sources */,
 				3007B4341FAF352700396605 /* SubscriptionsModel.swift in Sources */,
 				304551462080F4F9000B4212 /* DynamicLinkController.swift in Sources */,
 				3007B4851FAF3E6000396605 /* SettingsTableViewController.swift in Sources */,

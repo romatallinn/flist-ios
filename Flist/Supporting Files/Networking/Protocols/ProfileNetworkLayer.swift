@@ -26,7 +26,7 @@ protocol ProfileNetworkLayer : BaseLayerProtocol {
         - userID: id of the the user.
         - completionHandler: callback returning the full profile of the user with given id.
      */
-    func getFullProfileWith(userID: String, completionHandler: @escaping FullProfileCallback )
+    func getFullProfileWith(uid: String, completionHandler: @escaping FullProfileCallback )
     
     /**
      Method accesses network in order to retrieve the full profile of the user with given id.
@@ -44,7 +44,7 @@ protocol ProfileNetworkLayer : BaseLayerProtocol {
          - userID: id of the the user.
          - completionHandler: callback returning the account information of the user with given id.
      */
-    func getProfileInfo (_ userID: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
+    func getProfileInfo (_ uid: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
     
     /**
      Method accesses network in order to retrieve the groups from the user's profile with given id.
@@ -52,7 +52,7 @@ protocol ProfileNetworkLayer : BaseLayerProtocol {
          - userID: id of the the user.
          - completionHandler: callback returning the groups from the user's profile with given id.
      */
-    func getProfileGroups (_ userID: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
+    func getProfileGroups (_ uid: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
     
     /**
      Method accesses network in order to retrieve the cards from the user's profile with given id.
@@ -60,7 +60,7 @@ protocol ProfileNetworkLayer : BaseLayerProtocol {
          - userID: id of the the user.
          - completionHandler: callback returning the cards from the user's profile with given id.
      */
-    func getProfileCards (_ userID: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
+    func getProfileCards (_ uid: String, group_id: String, completionHandler: @escaping ( (NSDictionary?) -> () ) )
     
     // Retrieving a custom icon of the card from the storage
     

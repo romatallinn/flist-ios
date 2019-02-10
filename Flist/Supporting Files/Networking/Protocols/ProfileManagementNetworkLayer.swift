@@ -26,7 +26,7 @@ protocol ProfileManagementNetworkLayer : BaseLayerProtocol {
      - parameter data: dictionary that needs to be added to the database as a card.
      - returns: a unique string identificator of the card.
      */
-    func addCard(_ data: [String: Any]) -> String
+    func addCard(_ data: [String: Any], group_id: String) -> String
     
     
     /**
@@ -34,7 +34,7 @@ protocol ProfileManagementNetworkLayer : BaseLayerProtocol {
      - parameter data: dictionary that needs to be added to the database as a group.
      - returns: a unique string identificator of the group.
      */
-    func addGroup(_ data: [String: Any])
+    func addGroup(_ data: [String: Any]) -> String
     
     // Updating
     
@@ -44,7 +44,7 @@ protocol ProfileManagementNetworkLayer : BaseLayerProtocol {
      - data: dictionary that needs to be added to the database as a card.
      - id: card's identificator that refers to the one that needs to be updated.
      */
-    func updateCard(_ data: [String: Any]?, id: String)
+    func updateCard(_ data: [String: Any]?, id: String, group_id: String)
     
     /**
      Method updates the group of the given id with the given data.

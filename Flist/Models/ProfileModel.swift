@@ -15,13 +15,13 @@ class ProfileModel {
     
     public static let ProfileWebURL = "https://flist.me/u/"
     
-    public func getFullProfileWith(username: String, completionHandler: @escaping FirebaseProfileNetworkLayer.FullProfileCallback) {
+    public func getFullProfileWith(username: String, completionHandler: @escaping FirestoreProfileNetworkLayer.FullProfileCallback) {
         networkLayer.getFullProfileWith(username: username, completionHandler: completionHandler)
     }
     
-    public func getFullProfileWith(userID: String? = nil, completionHandler: @escaping FirebaseProfileNetworkLayer.FullProfileCallback) {
+    public func getFullProfileWith(userID: String? = nil, completionHandler: @escaping FirestoreProfileNetworkLayer.FullProfileCallback) {
         let uid = (userID == nil) ? networkLayer.getCurrentUID() : userID
-        networkLayer.getFullProfileWith(userID: uid!, completionHandler: completionHandler)
+        networkLayer.getFullProfileWith(uid: uid!, completionHandler: completionHandler)
     }
     
     public func getProfileInfo(_ userID: String? = nil, completionHandler: @escaping ((NSDictionary?) -> ())) {
@@ -36,7 +36,7 @@ class ProfileModel {
     
     public func getProfileCards(_ userID: String? = nil, completionHandler: @escaping ((NSDictionary?) -> ())) {
         let uid = (userID == nil) ? networkLayer.getCurrentUID() : userID
-        networkLayer.getProfileCards(uid!, completionHandler: completionHandler)
+        networkLayer.getProfileCards(uid!, group_id: <#String#>, completionHandler: completionHandler)
     }
     
     public func loadCustomCardIcon(uid: String? = nil, card_id: String, completionHandler: @escaping ((UIImage) -> ())) {
