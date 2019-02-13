@@ -209,7 +209,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6K-WO-zDT" customClass="MainButtonView" customModule="Flist" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6K-WO-zDT" customClass="MainGradientView" customModule="Flist" customModuleProvider="target">
                                                     <rect key="frame" x="72" y="17" width="230" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.97489459099999998" green="1" blue="0.98342401489999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -411,7 +411,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8Y-k6-Qxd" customClass="MainButtonView" customModule="Flist" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8Y-k6-Qxd" customClass="MainGradientView" customModule="Flist" customModuleProvider="target">
                                                     <rect key="frame" x="72" y="15" width="230" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.97489459099999998" green="1" blue="0.98342401489999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -669,7 +669,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhs-rV-GOk" customClass="MainButtonView" customModule="Flist" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhs-rV-GOk" customClass="MainGradientView" customModule="Flist" customModuleProvider="target">
                                                     <rect key="frame" x="72" y="17" width="230" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.97489459099999998" green="1" blue="0.98342401489999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -828,7 +828,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="76.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXD-pT-kC1" customClass="MainButtonView" customModule="Flist" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXD-pT-kC1" customClass="MainGradientView" customModule="Flist" customModuleProvider="target">
                                                     <rect key="frame" x="112" y="18" width="150" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.97489459099999998" green="1" blue="0.98342401489999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -952,7 +952,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="76.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNk-Bt-tH8" customClass="MainButtonView" customModule="Flist" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNk-Bt-tH8" customClass="MainGradientView" customModule="Flist" customModuleProvider="target">
                                                     <rect key="frame" x="112" y="18" width="150" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.97489459099999998" green="1" blue="0.98342401489999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -996,6 +996,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BPQ-r6-nQv"/>
-        <segue reference="6SA-IK-vA7"/>
+        <segue reference="t9Q-LN-o7h"/>
     </inferredMetricsTieBreakers>
 </document>

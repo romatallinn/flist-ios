@@ -10,17 +10,19 @@
 import UIKit
 
 @IBDesignable
-class MainButtonView: UIButton, MainGradientProtocol {
+class MainGradientView: UIButton, MainGradientProtocol {
 
+    @IBInspectable var isRadius: Bool = false
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
         self.backgroundColor = nil
         
         let gradient = self.getHorizontalGradientLayer()
-        
-        gradient.cornerRadius = self.frame.size.height / 3
         gradient.frame = self.bounds
+        
+        gradient.cornerRadius = (isRadius) ? self.frame.size.height / 3 : 0
 
         self.layer.insertSublayer(gradient, at: 0)
         

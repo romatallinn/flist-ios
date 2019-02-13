@@ -11,12 +11,14 @@
 		249E609321FC75D800CB7D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */; };
 		249E609621FC75E200CB7D2E /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609421FC75E200CB7D2E /* MyProfile.storyboard */; };
 		249E609721FC75E200CB7D2E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E609521FC75E200CB7D2E /* Auth.storyboard */; };
+		249F0C96221320E900DDA5F9 /* CardDescriptionPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249F0C95221320E900DDA5F9 /* CardDescriptionPopup.storyboard */; };
+		249F0C982213282000DDA5F9 /* ProfileCardDescriptionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249F0C972213282000DDA5F9 /* ProfileCardDescriptionPopupViewController.swift */; };
 		3007B42C1FAF348900396605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3007B42B1FAF348800396605 /* Assets.xcassets */; };
 		3007B4341FAF352700396605 /* SubscriptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4331FAF352700396605 /* SubscriptionsModel.swift */; };
 		3007B43E1FAF36B900396605 /* ProfileInfoElement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3007B43C1FAF36B900396605 /* ProfileInfoElement.xib */; };
 		3007B43F1FAF36B900396605 /* CardElement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3007B43D1FAF36B900396605 /* CardElement.xib */; };
 		3007B44B1FAF37B400396605 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B44A1FAF37B400396605 /* MainGradient.swift */; };
-		3007B44D1FAF37C100396605 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B44C1FAF37C100396605 /* MainButtonView.swift */; };
+		3007B44D1FAF37C100396605 /* MainGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B44C1FAF37C100396605 /* MainGradientView.swift */; };
 		3007B4521FAF37F900396605 /* LoginFieldAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4511FAF37F900396605 /* LoginFieldAttributes.swift */; };
 		3007B4581FAF38C800396605 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4551FAF38C800396605 /* RegistrationViewController.swift */; };
 		3007B4591FAF38C800396605 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B4561FAF38C800396605 /* LoginViewController.swift */; };
@@ -113,12 +115,14 @@
 		249E609221FC75D800CB7D2E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		249E609421FC75E200CB7D2E /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
 		249E609521FC75E200CB7D2E /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		249F0C95221320E900DDA5F9 /* CardDescriptionPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardDescriptionPopup.storyboard; sourceTree = "<group>"; };
+		249F0C972213282000DDA5F9 /* ProfileCardDescriptionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardDescriptionPopupViewController.swift; sourceTree = "<group>"; };
 		3007B42B1FAF348800396605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3007B4331FAF352700396605 /* SubscriptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsModel.swift; sourceTree = "<group>"; };
 		3007B43C1FAF36B900396605 /* ProfileInfoElement.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileInfoElement.xib; sourceTree = "<group>"; };
 		3007B43D1FAF36B900396605 /* CardElement.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardElement.xib; sourceTree = "<group>"; };
 		3007B44A1FAF37B400396605 /* MainGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
-		3007B44C1FAF37C100396605 /* MainButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+		3007B44C1FAF37C100396605 /* MainGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGradientView.swift; sourceTree = "<group>"; };
 		3007B4511FAF37F900396605 /* LoginFieldAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldAttributes.swift; sourceTree = "<group>"; };
 		3007B4551FAF38C800396605 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		3007B4561FAF38C800396605 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -270,6 +274,7 @@
 				3007B43C1FAF36B900396605 /* ProfileInfoElement.xib */,
 				3007B43D1FAF36B900396605 /* CardElement.xib */,
 				306F8456206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib */,
+				249F0C95221320E900DDA5F9 /* CardDescriptionPopup.storyboard */,
 			);
 			path = XIB;
 			sourceTree = "<group>";
@@ -291,7 +296,7 @@
 				3007B45D1FAF392600396605 /* NavBarGeneral.swift */,
 				3007B4511FAF37F900396605 /* LoginFieldAttributes.swift */,
 				3007B44A1FAF37B400396605 /* MainGradient.swift */,
-				3007B44C1FAF37C100396605 /* MainButtonView.swift */,
+				3007B44C1FAF37C100396605 /* MainGradientView.swift */,
 				308733461FD6DA86008A6A3A /* Extensions.swift */,
 				300F6C77207A7F1E001C7F1B /* CancelButton.swift */,
 			);
@@ -342,6 +347,7 @@
 				3007B46F1FAF3B3000396605 /* ProfileElementCell.swift */,
 				3007B46D1FAF3B0C00396605 /* MyProfileCellUIView.swift */,
 				3007B4641FAF3AB600396605 /* ExpandableHeaderView.swift */,
+				249F0C972213282000DDA5F9 /* ProfileCardDescriptionPopupViewController.swift */,
 			);
 			path = "Profile Display";
 			sourceTree = "<group>";
@@ -722,6 +728,7 @@
 				306F8457206BD3FF00562C4F /* EmptyDataPlaceholderTableView.xib in Resources */,
 				249E609721FC75E200CB7D2E /* Auth.storyboard in Resources */,
 				249E609621FC75E200CB7D2E /* MyProfile.storyboard in Resources */,
+				249F0C96221320E900DDA5F9 /* CardDescriptionPopup.storyboard in Resources */,
 				249E609121FC75C600CB7D2E /* Subscriptions.storyboard in Resources */,
 				3007B43E1FAF36B900396605 /* ProfileInfoElement.xib in Resources */,
 				249E609321FC75D800CB7D2E /* LaunchScreen.storyboard in Resources */,
@@ -891,10 +898,11 @@
 				304551462080F4F9000B4212 /* DynamicLinkController.swift in Sources */,
 				3007B4851FAF3E6000396605 /* SettingsTableViewController.swift in Sources */,
 				30150ED2206A840800D6A96C /* OnboardingOverviewViewController.swift in Sources */,
-				3007B44D1FAF37C100396605 /* MainButtonView.swift in Sources */,
+				3007B44D1FAF37C100396605 /* MainGradientView.swift in Sources */,
 				3036F8B7208D2A56008579A5 /* Structs.swift in Sources */,
 				30C6BB7D2193214C00A49C68 /* NetworkLayer.swift in Sources */,
 				3007B4A61FB497CC00396605 /* TextFieldReturnResignable.swift in Sources */,
+				249F0C982213282000DDA5F9 /* ProfileCardDescriptionPopupViewController.swift in Sources */,
 				3007B4801FAF3E1D00396605 /* ProfileEditTableViewController.swift in Sources */,
 				3007B45E1FAF392600396605 /* NavBarGeneral.swift in Sources */,
 				30C6BB7B21931CD100A49C68 /* ProfileModel.swift in Sources */,

@@ -139,5 +139,18 @@ class ProfileElementCell: ProfileTableViewCell {
         
     }
     
+    @IBAction func PopupDescription(_ sender: Any) {
+        
+        if let popup = StoryboardController.getInitialController(withBoardID: "CardDescriptionPopup") as? ProfileCardDescriptionPopupViewController {
+        
+            popup.modalPresentationStyle = .overFullScreen
+            viewController.present(popup, animated: false)
+            popup.descriptionLabel.text = self.element.desc
+            
+
+            
+        }
+        
+    }
     
 }
