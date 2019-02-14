@@ -217,6 +217,9 @@
                                                     <state key="normal" title="Create">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRadius" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="CreateAction:" destination="KwK-eY-ZLl" eventType="touchUpInside" id="Cfp-bM-kj4"/>
                                                     </connections>
@@ -419,6 +422,9 @@
                                                     <state key="normal" title="Save">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRadius" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="SaveAction:" destination="Fza-QE-7cS" eventType="touchUpInside" id="BjG-MK-Ifo"/>
                                                     </connections>
@@ -677,6 +683,9 @@
                                                     <state key="normal" title="Create">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRadius" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="CreateCardAction:" destination="xYS-6r-JA2" eventType="touchUpInside" id="Ep4-E9-MbE"/>
                                                     </connections>
@@ -836,6 +845,9 @@
                                                     <state key="normal" title="Done">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRadius" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="CreateCardAction:" destination="xYS-6r-JA2" eventType="touchUpInside" id="C1V-Fn-qI4"/>
                                                         <action selector="DoneAction:" destination="5H6-Vn-oj0" eventType="touchUpInside" id="tCG-Ut-vcv"/>
@@ -960,6 +972,9 @@
                                                     <state key="normal" title="Done">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRadius" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="CreateCardAction:" destination="xYS-6r-JA2" eventType="touchUpInside" id="6em-Bt-CKS"/>
                                                         <action selector="DoneAction:" destination="7VK-3S-KyK" eventType="touchUpInside" id="Z3k-H3-xJ9"/>
