@@ -317,7 +317,7 @@ class NewCardTableViewController: UITableViewController, UIPickerViewDelegate, U
             data["username"] = cardUsernameField.text
             data["privacy"] = cardPrivacyPicker.selectedSegmentIndex
             data["url"]  = cardLinkLabel.text
-            data["description"] = cardDescriptionField.text
+            data["description"] = cardDescriptionField.text.isEmpty ? cardNameField.text : cardDescriptionField.text
             
             card_id = model.addCard(data) // Add new card to the server
     

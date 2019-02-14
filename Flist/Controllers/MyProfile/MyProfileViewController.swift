@@ -125,10 +125,15 @@ class MyProfileViewController: ProfileViewController, ProfileViewProtocol, UITab
                         let profs = sections[index].cards
                         
                         if let last = profs.last, let l_id = last.id, last.type == "none" {
+                        
                             
                             self.model.loadCustomCardIcon(card_id: l_id) {
                                 (image) in
-                                                                
+                                
+                                if sections[0].id == "0" {
+                                    index += 1
+                                }
+                                
                                 self.fullProfile?.cardGroups[index].cards[profs.count-1].img = image
                                 self.tableView.reloadRows(at: [IndexPath.init(row: profs.count-1, section: index+1)], with:     UITableView.RowAnimation.automatic)
                             }
